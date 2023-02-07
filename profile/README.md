@@ -27,8 +27,8 @@ _ITU Helper_'a [_bu adresten_](https://itu-helper.github.io/home/) ulaşabilirsi
 ## Veri Güncellenme Durumu
 
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itu-helper/data-updater/Refresh%20Lessons?label=Refreshing%20Lesson%20Data&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itu-helper/data-updater/Refresh%20Courses%20&%20Course%20Plans?label=Refreshing%20Course%20Data&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/itu-helper/data-updater/Refresh%20Misc?label=Refreshing%20Misc&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_lessons.yml?label=Refreshing%20Lesson&logo=docusign&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_courses_and_plans.yml?label=Refreshing%20Courses%20%26%20Course%20Plans&logo=docusign&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_misc.yml?label=Refreshing%20Misc&logo=docusign&style=flat-square)
 
 </div>
