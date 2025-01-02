@@ -22,13 +22,31 @@ _ITU Helper_'a [_bu adresten_](https://itu-helper.github.io/home/) ulaşabilirsi
 </br>
 </br>
 
-<div align="center">
-
 ## Veri Güncellenme Durumu
 
+<div align="center">
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_lessons.yml?label=Refreshing%20Lesson&logo=docusign&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_courses_and_plans.yml?label=Refreshing%20Courses%20%26%20Course%20Plans&logo=docusign&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itu-helper/data-updater/refresh_misc.yml?label=Refreshing%20Misc&logo=docusign&style=flat-square)
+[![Refresh Lessons](https://github.com/itu-helper/data-updater/actions/workflows/refresh_lessons.yml/badge.svg)](https://github.com/itu-helper/data-updater/actions/workflows/refresh_lessons.yml)
+[![Refresh Course Plans](https://github.com/itu-helper/data-updater/actions/workflows/refresh_course_plans.yml/badge.svg)](https://github.com/itu-helper/data-updater/actions/workflows/refresh_course_plans.yml)
+[![Refresh Courses](https://github.com/itu-helper/data-updater/actions/workflows/refresh_courses.yml/badge.svg)](https://github.com/itu-helper/data-updater/actions/workflows/refresh_courses.yml)
+[![Refresh Misc](https://github.com/itu-helper/data-updater/actions/workflows/refresh_misc.yml/badge.svg)](https://github.com/itu-helper/data-updater/actions/workflows/refresh_misc.yml)
 
 </div>
+
+## Repository Yapısı
+
+### Veri
+
+- [**itu-helper/data**](https://github.com/itu-helper/data): Verilerin tutulduğu _repository_. [itu-helper/data-updater](https://github.com/itu-helper/data-updater) üzerinden güncellenen veriler, bu _repository_ üzerinde, `.txt` formatında saklanır.
+
+- [**itu-helper/data-updater**](https://github.com/itu-helper/data-updater): Verilerin güncellenmesini sağlayan _Python_ kodları ve bu kodların otomatik olarak çalıştıran _GitHub Actions_ workflow'larını tutan _repository_.
+
+### SDK
+
+- [**itu-helper/sdk**](https://github.com/itu-helper/sdk): ITU helper verilerine ([itu-helper/data](https://github.com/itu-helper/data)) erişilmesi ve işlenmesini kolaylaştırmak adına oluşturulmuş, SDK'lerden (Software Development Kit) oluşan bir _mono repository_. Şu anlık desteklenen diller: _JavaScript_.
+
+### Web sitesi
+
+- [**itu-helper/home**](https://github.com/itu-helper/home): _ITU Helper_ sitesinin [ana sayfası](https://itu-helper.github.io/home/). Bu sayfa üzerinden, hem İTÜ'nün resmi sitelerine, hem çeşitli öğrenci yapımı sitelere ve son olarak da _ITU Helper_'ın diğer sitelerine bağlantıları sağlanmakta.
+
+- [**itu-helper/prereq-scheduler**](https://github.com/itu-helper/prereq-scheduler): _ITU Helper_'ın [_JavaScript SDK_](https://github.com/itu-helper/sdk)'sini kullanarak, derslerin önşartlarını görselleştiren bir [sayfa](https://github.com/itu-helper/prereq-scheduler).
